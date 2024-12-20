@@ -45,6 +45,8 @@
 #### Made With
 <img src="https://img.shields.io/badge/-HAXE-262626.svg?logo=haxe&style=for-the-badge">
 
+(also its not same as Psych Engine Additional Version)
+
 
 <!-- ABOUT THE PROJECT -->
 ## About
@@ -98,20 +100,6 @@ Run
    lime test <platform>
    ```
    where ```<platform>``` gets replaced with windows, linux, or mac (I also like to add ```-final``` flag, but you should be fine without it)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-### Branches
-`master` is the repository's main branch. It contains a PE 1.0 flavor of P-Slice and is the most maintained version.
-
-`master-dev` same as `master`, but used for development so might contain less stable builds.
-
-`pe-0.6.3` works the same way, but built on Psych 0.6.3. Note that it may contain some bugs not present in the master version.
-
-`pe-0.6.3-dev` same as `pe-0.6.3`, but used for development so might contain less stable builds.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

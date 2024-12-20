@@ -1551,7 +1551,7 @@ class FunkinLua {
 			#end
 		});
 		//
-
+		
 		Lua_helper.add_callback(lua, "debugPrint", function(text:Dynamic = '', color:String = 'WHITE') PlayState.instance.addTextToDebug(text, CoolUtil.colorFromString(color)));
 
 		addLocalCallback("close", function() {

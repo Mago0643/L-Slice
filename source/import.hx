@@ -106,5 +106,9 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.addons.transition.FlxTransitionableState;
 import shaders.flixel.system.FlxShader;
 
+// OpenFL
+import openfl.Lib;
+import openfl.system.Capabilities;
+
 using StringTools;
 #end

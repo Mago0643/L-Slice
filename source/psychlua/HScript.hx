@@ -1,5 +1,6 @@
 package psychlua;
 
+import flixel.util.FlxAxes;
 import flixel.FlxBasic;
 import objects.Character;
 import psychlua.LuaUtils;
@@ -133,6 +134,21 @@ class HScript extends Iris
 		#if flxanimate
 		set('FlxAnimate', FlxAnimate);
 		#end
+		// in case if someone wanted to do window movement
+		set("Lib", Lib);
+		set("Capabilities", Capabilities);
+
+		// enums that use most
+		set("FlxText_CENTER", CENTER);
+		set("FlxText_LEFT", LEFT);
+		set("FlxText_RIGHT", RIGHT);
+		set("FlxText_OUTLINE", OUTLINE);
+		set("FlxText_OUTLINE_FAST", OUTLINE_FAST);
+		set("FlxText_SHADOW", SHADOW);
+		set("FlxText_NONE", NONE);
+		set("Axes_X", FlxAxes.X);
+		set("Axes_Y", FlxAxes.Y);
+		set("Axes_XY", FlxAxes.XY);
 
 		// Functions & Variables
 		set('setVar', function(name:String, value:Dynamic) {
